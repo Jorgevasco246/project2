@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+
+body {
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url(../assets/bacckprofile.png);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+    height: 40px;
+
+}
+
+.navlink {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+}
+
+.navlink li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    height: 200px;
+    position: absolute;
+    left: 45%;
+}
+
+.iconos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 25px;
+    gap: 90px;
+    padding-right: 40px;
+}
+
+.iconos span:hover {
+    color: #E1991C;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #E1991C;
+}
+
+.container {
+
+    background: linear-gradient(#0000, #091902, #254A16);
+    width: 30%;
+    padding: 4px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+    border: solid white 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 30px;
+}
+
+.horizontal-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.interactions {
+    display: flex;
+    justify-content: space-between; /* Espacia uniformemente */
+    gap: 20px; /* Espacio entre botones */
+    padding: 0 40px; /* Separación desde los bordes del contenedor */
+    margin-top: 20px;
+}
+
+/* Estilo común para todos los botones */
+.edit,
+.favorite,
+.logoutButton {
+    flex: 1; /* Hace que todos los botones tengan el mismo ancho */
+    padding: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Estilos individuales */
+.edit,
+.logoutButton {
+    background-color: #3C562B;
+    color: white;
+}
+
+.edit:hover {
+    background-color: #254A16;
+}
+
+.logoutButton:hover {
+    background-color: red;
+}
+
+.favorite {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: solid white 1px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.favorite:hover {
+    background-color: green;
+}
+
+
+
+.fathercontainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.favoriteprofile {
+    width: 40%;
+    color: white;
+    background: linear-gradient(#0000, #06192D, #0d2740);
+    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    border: solid white 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+
+    img {
+        width: 350px;
+    }
+
+}
+
+.espacio {
+    margin-bottom: 14px;
+}
+
+

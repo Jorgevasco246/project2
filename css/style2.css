@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+
+body {
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url(../assets/image10.png);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+    height: 40px;
+
+}
+
+.navlink {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+}
+
+.navlink li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    height: 200px;
+    position: absolute;
+    left: 45%;
+}
+
+.iconos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 25px;
+    gap: 90px;
+    padding-right: 40px;
+}
+
+.iconos span:hover {
+    color: #E1991C;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 50px;
+    margin-right: 200px;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #E1991C;
+}
+
+form {
+    color: white;
+    width: 30%;
+    background-color: #00000072;
+    border-radius: 12px;
+    padding: 30px;
+    border: solid white 1px;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: #E1991C;
+        border-radius: 12px;
+        padding: 17px;
+        color: white;
+        margin: 10px;
+        width: 90%;
+    }
+
+    button:hover {
+        background-color: #bc7e12;
+    }
+
+
+
+    input {
+        border: solid white 1px;
+        border-radius: 12px;
+        background-color: #ff000f00;
+        padding: 17px;
+        color: white;
+        margin: 10px 0;
+        width: 80%;
+
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.632);
+        font-size: 1em;
+    }
+
+}

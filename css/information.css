@@ -1,0 +1,135 @@
+* {
+    font-family: inter;
+    color: white;
+}
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url(../assets/fondo.png);
+
+}
+
+.iconos span:hover {
+    color: #E1991C;
+}
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: #E1991C;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.navlink {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+}
+
+.navlink li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    height: 200px;
+    position: absolute;
+    left: 45%;
+}
+
+.iconos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 25px;
+    gap: 90px;
+    padding-right: 40px;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.poderes {
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.poke {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+
+}
+
+.pokemones {
+    width: 360px;
+    height: auto;
+}
+
+button {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.092);
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: #0000003f;
+}
+
+section {
+    display: flex;
+    padding: 50px;
+
+}
+
+.cuadro {
+    margin-top: 20px;
+    width: 75%;
+    display: flex;
+    background: linear-gradient(#0000, rgb(27, 78, 27), #1d591d);
+    border-radius: 12px;
+    align-items: center;
+
+}

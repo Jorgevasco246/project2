@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat+Brush&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pangolin&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat+Brush&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pangolin&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pokeapi.co/api/v2/pokemon/1">
+    <link rel="icon" type="image/vnd.icon" href="favicon.ico">
+    <link rel="stylesheet" href="../css/style3.css">
+
+    <title>Profile</title>
+
+    <nav>
+        <ul class="navlink">
+            <li><a href="main.html">Home</a> </li>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="Gallery.html">Pokemones Gallery</a></li>
+        </ul>
+
+        <img src="assets/logo pk.png" alt="Pokemon Logo" class="logo">
+
+        <div class="iconos">
+            <span class="fa fa-search"></span>
+            <a href="login.html"><span class="fa fa-user"></span></a>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="father">
+        <div class="fathercontainer">
+            <div class="container">
+                <img src="assets/profileimage.png" width="150px" alt="" style="margin-bottom: 14px;">
+                <h1 id="profileUsername" style="margin-bottom: 14px;">Juan7816</h1>
+                <span id="profileFullName">Juan David Rodriguez</span>
+                <span id="profileAge">19 years old</span>
+                <h2 style="margin-top: 14px; margin-bottom: 14px;">Personal information</h2>
+
+                <div class="horizontal-text">
+                    <div style="display: flex; ">
+                        <span
+                            style="margin-right: 10px; font-weight: bold; font-style: italic; margin-bottom: 25px;">Email</span>
+                        <span id="profileEmail" style=" font-style: italic">juand@gmail.com</span>
+                    </div>
+
+                    <div style="display: flex; ">
+                        <span style="margin-right: 10px; font-weight: bold; font-style: italic;">Password</span>
+                        <span style=" font-style: italic">**********</span>
+                    </div>
+                    <div class="interactions">
+                        <div class="edit" id="editProfileButton">EDIT <br>PROFILE</div>
+                        <div class="favorite">FAVORITES</div>
+                        <div class="logoutButton" id="logoutButton">CLOSE SESSION</div> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="favoriteprofile">
+                <div>
+                    <h1 class="espacio">Favorite <br> Pokemon:</h1>
+                    <h3 class="espacio">Blastoise </h3>
+                    <p class="espacio">Water-type Pokémon known for its powerful water cannons and sturdy shell. It
+                        evolves from Wartortle
+                        and combines strength with defense for strategic battles.</p>
+                </div>
+
+                <div><img src="assets/Blastoise.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/profile.js"></script>
+</body>
+
+</html>

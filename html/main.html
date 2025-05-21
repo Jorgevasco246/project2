@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mainpaige.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat+Brush&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pangolin&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat+Brush&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pangolin&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pokeapi.co/api/v2/pokemon/1">
+    <link rel="icon" type="image/vnd.icon" href="favicon.ico">
+    <link rel="stylesheet" href="../css/mainpaige.css">
+
+    <title>Main</title>
+
+    <nav>
+        <ul class="navlink">
+            <li><a href="main.html">Home</a> </li>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="Gallery.html">Pokemones Gallery</a></li>
+        </ul>
+
+        <img src="assets/logo pk.png" alt="Pokemon Logo" class="logo">
+
+        <div class="iconos">
+            <span class="fa fa-search"></span>
+            <a href="login.html"><span class="fa fa-user"></span></a>
+        </div>
+    </nav>
+    <style>
+        /* Estilos adicionales para centrar el contenido en la sección 4 */
+        .subscribe {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .subscribe-content {
+            text-align: center;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .pokemon-character.totodile {
+            position: relative;
+            right: auto;
+            bottom: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sección 1: Header y Hero Banner (Imagen 1) -->
+    
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 id="Welcome">New <span id="nombreuser">Pokemons</span></h1>
+            <a href="#subscribe" class="subscribe-btn">SUBSCRIBE</a>
+        </div>
+
+        <div class="pokemon-character">
+            <img src="assets/snorlax.png" alt="Leafeon" class="leafeon-img">
+        </div>
+
+        <div class="hero-nav">
+            <button class="prev-btn">&lt;</button>
+            <button class="next-btn">&gt;</button>
+        </div>
+    </section>
+
+    <!-- Sección 2: Favorite Pokémon (Imagen 2) -->
+    <section class="favorite-pokemon container" id="favorite">
+
+        <div class="favorite-content">
+
+            <div class="favorite-text">
+                <h2>FAVORITE POKEMON</h2>
+                <p>Explore a world full of unique creatures and discover the perfect companion for you. Whether you're
+                    looking for your first Pokémon or want to relive your memories with those that marked you, here you
+                    can find the most iconic and powerful Pokémon.</p>
+                <a href="favoritos.html" class="more-info">MORE INFO</a>
+            </div>
+            <div class="pokemon-cards">
+                <img src="assets/CARTAS POKE.png" alt="ok">
+            </div>
+        </div>
+    </section>
+    <!-- Sección 3: Find your favorite Pokémon (Imagen 3) -->
+    <section class="find-pokemon container" id="find">
+        <h2>Find your favorite pokemon</h2>
+
+        <div class="pokemon-grid">
+            <!-- Primera fila -->
+            <div class="pokemon-item color">
+                <img src="assets/scyther.png" alt="Scyther">
+                <h3>Scyther</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <div class="pokemon-item color">
+                <img src="assets/tododile.png" alt="Totodile">
+                <h3>Totodile</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <div class="pokemon-item color">
+                <img src="assets/snorlax.png" alt="Snorlax">
+                <h3>Snorlax</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <!-- Segunda fila -->
+            <div class="pokemon-item othercolor">
+                <img src="assets/dragonite.png" alt="Dragonite">
+                <h3>Dragonite</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <div class="pokemon-item othercolor">
+                <img src="assets/charmeleon.png" alt="Charmeleon">
+                <h3>Charmeleon</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <div class="pokemon-item othercolor">
+                <img src="assets/chimchar.png" alt="Chimchar">
+                <h3>Chimchar</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 78%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar red">
+                            <div class="stat-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <!-- NUEVA FILA - Tercera fila con los Pokémon de la imagen -->
+            <div class="pokemon-item other">
+                <img src="assets/greninja.png" alt="Greninja">
+                <h3>Greninja</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <div class="pokemon-item other">
+                <img src="assets/altaria.png" alt="Altaria">
+                <h3>Altaria</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+
+            <div class="pokemon-item other">
+                <img src="assets/lapras.png" alt="Lapras">
+                <h3>Lapras</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-label">Strike</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Defense</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Energy</div>
+                        <div class="stat-bar green">
+                            <div class="stat-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <button>More information</button>
+                <a href="favoritos.html"><button>Add to favorites</button></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Sección 4: Sign up form (Imagen 4) - FORMULARIO CENTRADO -->
+    <section class="subscribe" id="subscribe">
+        <div class="subscribe-content">
+            <h2>Sign up to receive emails</h2>
+            <div class="contenedorr">
+                <form>
+                    <input type="email" placeholder="E-mail address" required>
+                    <div class="form-row">
+                        <input type="text" placeholder="Country">
+                        <input type="date" placeholder="Date of birth">
+                    </div>
+                    <button type="submit">SIGN UP</button>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox">
+                            I would like to receive emails about:
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Pokémon video games, apps, and more
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            I agree to the Pokemon.com/LATAM Terms of Use and Privacy Notice.
+                        </label>
+                    </div>
+                </form>
+
+                
+                    <img src="assets/tododile.png" alt="Totodile">
+               
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h3>Overview</h3>
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Service law</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#">Central community</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+
+                <h3>Follow us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore products</h3>
+                <ul>
+                    <li><a href="#">Fandom</a></li>
+                    <li><a href="#">Muthead</a></li>
+                    <li><a href="#">Fanatical</a></li>
+                    <li><a href="#">Product kit</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
